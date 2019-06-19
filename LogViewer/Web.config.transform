@@ -1,0 +1,11 @@
+﻿<configuration>
+  <appSettings>
+    <add key="LogViewerPort" value="878" />
+    <add key="LogViewerDuration" value="120" />
+  </appSettings>
+  <episerver.shell>
+    <protectedModules>
+      <add name="LogViewer" />
+    </protectedModules>
+  </episerver.shell>
+</configuration>

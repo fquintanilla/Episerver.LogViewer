@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Verndale.LogViewer</id>
+    <version>$version$</version>
+    <title>Log Viewer</title>
+    <authors>Verndale</authors>
+    <owners />
+    <iconUrl>http://world.episerver.com/PageFiles/3/Icons/Nuget.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Allow an administrator to view logs in real time.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>EPiServer Verndale Package Cache</tags>
+  </metadata>
+  <files>
+    <file src="bin\LogViewer.dll" target="lib\net46\" />
+    <file src="bin\LogViewer.dll" target="lib\net47\" />
+    <file src="Modules\_protected\Verndale.LogViewer\Verndale.LogViewer.zip" target="content\Modules\_protected\Verndale.LogViewer\"/>
+  </files>
+</package>
