@@ -39,7 +39,7 @@ namespace Kamsar.WebConsole
 		{
 			if (!string.IsNullOrEmpty(Title))
 			{
-				_response.Write($"<h2>{HttpUtility.HtmlEncode(Title)}</h2>");
+				_response.Write($"<h3>{HttpUtility.HtmlEncode(Title)}</h3>");
 			}
 		}
 
