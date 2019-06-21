@@ -172,6 +172,7 @@
     <None Include="Verndale.LogViewer.nuspec" />
     <None Include="Web.config" />
     <Content Include="Web.config.transform" />
+    <Content Include="EPiServerLog.config.transform" />
     <None Include="ZipBuildAndPack.bat" />
   </ItemGroup>
   <ItemGroup>
